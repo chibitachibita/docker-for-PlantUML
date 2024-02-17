@@ -1,4 +1,9 @@
 # docker-for-PlantUML
+### 事前準備
+- VSCode上に下記拡張機能がインストールされていること  
+docker  
+PlantUML
+
 ### 拡張機能PlantUMLインストール  
 - 下記設定  
 <img src='images/plantuml_setting.png'>  
