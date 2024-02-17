@@ -1,0 +1,7 @@
+version: '3'
+services:
+  plantuml-server:
+    image: plantuml/plantuml-server
+    container_name: plantuml-local-server
+    ports:
+      - "8080:8080"
