@@ -1,0 +1,10 @@
+@startuml sampleSequenceDiagram
+
+actor User
+participant "UserInterface" as UI
+participant "System" as Sys
+
+User -> UI : login()
+UI -> Sys : authenticate()
+Sys -> UI : loginResponse()
+@enduml

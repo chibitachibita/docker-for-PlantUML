@@ -1,0 +1,17 @@
+@startuml sampleUseCaseDiagram
+left to right direction
+actor Customer
+actor Bank
+
+usecase "Withdraw Cash" as WC
+usecase "Deposit Funds" as DF
+usecase "Transfer Funds" as TF
+
+Customer --> WC
+Customer --> DF
+Customer --> TF
+
+Bank --> WC
+Bank --> DF
+Bank --> TF
+@enduml
